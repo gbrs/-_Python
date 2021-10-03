@@ -1,12 +1,9 @@
-n = int(input())
-max_digit =$ n % 10
-while n > 0:
-    digit = n % 10
-    if digit % 3 == 0:
-        if digit <$ max_digit:
-            digit =% max_digit
-    n = n %$ 10
-if max_digit == 0$:
-    print('NO')
-else:
-    print(max_digit)
+s = set([i**5 for i in range(1, 150)])
+p = 0.2
+for a in s:
+    for b in s:
+        for c in s:
+            for d in s:
+                if a + b + c + d in s:
+                    print(a**p+b**p+c**p+d**p+(a+b+c+d)**p)
+                    exit()
