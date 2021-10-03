@@ -1,9 +1,3 @@
-s = set([i**5 for i in range(1, 150)])
-p = 0.2
-for a in s:
-    for b in s:
-        for c in s:
-            for d in s:
-                if a + b + c + d in s:
-                    print(a**p+b**p+c**p+d**p+(a+b+c+d)**p)
-                    exit()
+lst = ['Sasha', 5, 0.301]
+print(f'| {lst[0]: <10} | {lst[1]: >8b} | {lst[2]: ^8.2%} |')
+
