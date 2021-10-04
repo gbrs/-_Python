@@ -1,8 +1,1 @@
-y = 2010
-sm = '10k'
-v = 'Bitcoin'
-
-s = f'In {y}, someone paid {sm} {v} for two pizzas.'
-
-print(s)
-
+print("1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" or "0" in "gslkgdsk")
