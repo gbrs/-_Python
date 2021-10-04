@@ -1,3 +1,8 @@
-lst = ['Sasha', 5, 0.301]
-print(f'| {lst[0]: <10} | {lst[1]: >8b} | {lst[2]: ^8.2%} |')
+y = 2010
+sm = '10k'
+v =
+
+s = 'In {y}, someone paid {sm} {'Bitcoin'} for two pizzas.'
+
+print(s)
 
