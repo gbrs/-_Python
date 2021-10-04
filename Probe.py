@@ -1,8 +1,8 @@
 y = 2010
 sm = '10k'
-v =
+v = 'Bitcoin'
 
-s = 'In {y}, someone paid {sm} {'Bitcoin'} for two pizzas.'
+s = f'In {y}, someone paid {sm} {v} for two pizzas.'
 
 print(s)
 
