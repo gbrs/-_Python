@@ -1,2 +1,3 @@
-lst = [*'список']
-print(lst)
+s = input()
+for char in s:
+    print(ord(char), end=' ')
